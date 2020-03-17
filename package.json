@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "node_modules/.bin/mocha --recursive tests"
+    "test": "mocha --recursive tests"
   },
   "keywords": [
     "base",
@@ -24,5 +24,16 @@
   "devDependencies": {
     "mocha": "^5.2.0",
     "should": "^13.2.3"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Corrina-Busby/base-express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Corrina-Busby/base-express/issues"
+  },
+  "homepage": "https://github.com/Corrina-Busby/base-express#readme"
 }

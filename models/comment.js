@@ -6,7 +6,7 @@ exports.create = function(user, text, cb) {
 
 // Get a particular comment
 exports.get = function(id, cb) {
-  cb(null, {id:id, text: 'Very nice example'})
+  cb(null, {id:id, text: ' Your the Best!'})
 }
 
 // Get all comments
